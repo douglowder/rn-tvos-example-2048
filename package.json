@@ -5,12 +5,13 @@
 	"scripts": {
 		"start": "node node_modules/react-native/local-cli/cli.js start",
 		"ios": "react-native run-ios",
+		"tvos": "react-native run-tvos",
 		"android": "react-native run-android",
 		"test": "jest"
 	},
 	"dependencies": {
-		"react": "~15.4.1",
-		"react-native": "0.42.3"
+		"react": "16.0.0-alpha.6",
+		"react-native": "https://github.com/dlowder-salesforce/react-native#tvos-cli-2"
 	},
 	"devDependencies": {
 		"babel-jest": "19.0.0",
